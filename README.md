@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumkbn2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gapxsumkbn2/tags). For example,
+
+```javascript
 import gapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumkbn2@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumkbn2@v0.2.2-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumkbn2@deno/mod.js';
 ```
 
 #### gapxsumkbn2( N, alpha, x, stride )
@@ -157,7 +162,7 @@ var v = gapxsumkbn2.ndarray( N, 5.0, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import gapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumkbn2@v0.2.2-deno/mod.js';
+import gapxsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumkbn2@deno/mod.js';
 
 var x;
 var i;
